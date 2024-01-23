@@ -12,6 +12,22 @@ public class CharacterImageChanger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        change();
+    }
+
+    private void Awake()
+    {
+        change();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void change()
+    {
         if (GameManager.Instance.character_type == 0)
         {
             Image1.enabled = true;
@@ -22,11 +38,5 @@ public class CharacterImageChanger : MonoBehaviour
             Image2.enabled = true;
             Image1.enabled = false;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

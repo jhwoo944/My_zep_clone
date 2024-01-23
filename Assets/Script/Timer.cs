@@ -1,25 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NickNameMarker : MonoBehaviour
+public class Timer : MonoBehaviour
 {
-    public Text nickName_text = null;
-    public GameObject player;
+    public Text text;
     // Start is called before the first frame update
     void Start()
     {
-        mark();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        text.text = GetCurrentDate();
     }
 
-    public void mark()
+    public string GetCurrentDate()
     {
-        nickName_text.text = GameManager.Instance.playerNickName;
+        return DateTime.Now.ToString();
     }
 }

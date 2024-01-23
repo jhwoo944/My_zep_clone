@@ -65,13 +65,16 @@
     <Compile Include="Assets\Script\LookingMouse.cs" />
     <Compile Include="Assets\Script\choose_char_button.cs" />
     <Compile Include="Assets\Script\cameraController.cs" />
+    <Compile Include="Assets\Script\NickNameChangeButton.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\TopDownCharacterController.cs" />
     <Compile Include="Assets\Script\TopDownAnimations.cs" />
     <Compile Include="Assets\Script\InputNicknameButton.cs" />
+    <Compile Include="Assets\Script\TalkManager.cs" />
     <Compile Include="Assets\Script\NickNameMarker.cs" />
     <Compile Include="Assets\Script\CharacterImageChanger.cs" />
     <Compile Include="Assets\Input\PlayerInputController.cs" />
+    <Compile Include="Assets\Script\Timer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

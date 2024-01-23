@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class InputNicknameButton : MonoBehaviour
 {
     public InputField playerNameInput;
+    public Button button;
     private string playerName = null;
 
     private void Awake()
@@ -22,11 +23,20 @@ public class InputNicknameButton : MonoBehaviour
     //¸¶¿ì½º
     public void InputName()
     {
+        string currentSceneName = SceneManager.GetActiveScene().name;
         playerName = playerNameInput.text;
         if (playerName.Length > 1)
         {
             GameManager.Instance.playerNickName = playerName;
-            SceneManager.LoadScene("MainScene");
+            if (currentSceneName != "MainScene")
+            {
+                SceneManager.LoadScene("MainScene");
+            }
+            else
+            {
+                playerNameInput.gameObject.SetActive(false);
+                button.gameObject.SetActive(false);
+            }
         }
     }
 }

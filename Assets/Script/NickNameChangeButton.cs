@@ -3,23 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NickNameMarker : MonoBehaviour
+
+public class NickNameChangeButton : MonoBehaviour
 {
-    public Text nickName_text = null;
-    public GameObject player;
+    public InputField NinputField;
+    public Button Nbutton;
+
     // Start is called before the first frame update
     void Start()
     {
-        mark();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
     }
 
-    public void mark()
+    public void Onclick()
     {
-        nickName_text.text = GameManager.Instance.playerNickName;
+        NinputField.gameObject.SetActive(true);
+        Nbutton.gameObject.SetActive(true);
     }
 }
