@@ -1,0 +1,591 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 7524 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/tpffl/Unity/my_zep_town
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+52921
+Successfully changed project path to: C:/Users/tpffl/Unity/my_zep_town
+C:/Users/tpffl/Unity/my_zep_town
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17632] Host "[IP] 172.30.1.17 [Port] 0 [Flags] 2 [Guid] 767656343 [EditorId] 767656343 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0U5NL5S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17632] Host "[IP] 172.30.1.17 [Port] 0 [Flags] 2 [Guid] 767656343 [EditorId] 767656343 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0U5NL5S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 60.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tpffl/Unity/my_zep_town/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4665
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029337 seconds.
+- Loaded All Assemblies, in  0.602 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+InvalidOperationException: Cannot start process because a file name has not been provided.
+  at System.Diagnostics.Process.Start () [0x00024] in <1726b8fb30b6494e8753e45adcf8a07b>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Start()
+  at UnityEditor.Android.ProgramAsShellExecute.Start (System.Diagnostics.ProcessStartInfo psi) [0x0000e] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0003e] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000ad] in <476ef08ce6bf48598d2df8af8530034d>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <ac87b54e58ee4be198261fd5c8030d52>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.186 seconds
+Domain Reload Profiling: 3783ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (177ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (3187ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2989ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.221 seconds
+Refreshing native plugins compatible for Editor in 15.14 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.807 seconds
+Domain Reload Profiling: 2014ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (930ms)
+		LoadAssemblies (630ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (337ms)
+				TypeCache.ScanAssembly (310ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (611ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (113ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 12.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (246.3 KB). Loaded Objects now: 4856.
+Memory consumption went from 156.9 MB to 156.7 MB.
+Total: 4.970200 ms (FindLiveObjects: 0.581900 ms CreateObjectMapping: 0.116800 ms MarkObjects: 3.845800 ms  DeleteObjects: 0.424600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayerInputController.cs: 010ec0843297c63fe514859b5b2ec549 -> 9dffa01c0adbb613a54447b3537cac38
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 322268.917750 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_10.asset
+  artifactKey: Guid(54e5bc54f2447a545b864eedb4621d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_10.asset using Guid(54e5bc54f2447a545b864eedb4621d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d43af3c62a88d9cb2fd208ad81ac7a2') in 0.096956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.701376 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_17.asset
+  artifactKey: Guid(d6c1064521dde5842b7c465a3e2dbf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_17.asset using Guid(d6c1064521dde5842b7c465a3e2dbf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de67f53d2c3c8185911a8ad96770fb63') in 0.011058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_21.asset
+  artifactKey: Guid(6143d1310de6ac546a3d12b798e8c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_21.asset using Guid(6143d1310de6ac546a3d12b798e8c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159b15291681fd1a857135e0a8fd0e9a') in 0.008184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.414913 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_25.asset
+  artifactKey: Guid(d5e5edab5a14d5e4a866c7f5c2fc871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_25.asset using Guid(d5e5edab5a14d5e4a866c7f5c2fc871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e695be03e5b411e849a369dbc7ad6b') in 0.012741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.293326 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_31.asset
+  artifactKey: Guid(f5ea99d3f77c1ed4a9711595bff52ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_31.asset using Guid(f5ea99d3f77c1ed4a9711595bff52ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2936f9c2ec93425a053182e3f117d518') in 0.009471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011004 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_34.asset
+  artifactKey: Guid(7bc820ecfa85cd94291e5bab14746b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_34.asset using Guid(7bc820ecfa85cd94291e5bab14746b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd86be025beffb468817f817d4555f01') in 0.009060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 45.708291 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_49.asset
+  artifactKey: Guid(2e352b8fd7ffec84a8a3f30e842f531b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_49.asset using Guid(2e352b8fd7ffec84a8a3f30e842f531b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b65874a899cc6b51b441a952e3a245') in 0.009630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.821083 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_67.asset
+  artifactKey: Guid(2cf0d071b5acf804c8dc65eb44509547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_67.asset using Guid(2cf0d071b5acf804c8dc65eb44509547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963dcd562d17e285ef2949704acefd93') in 0.009315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025265 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_71.asset
+  artifactKey: Guid(f64e58df3ff9753488056ae107d362b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_71.asset using Guid(f64e58df3ff9753488056ae107d362b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b9c41faa72615f9dae547210fe730c') in 0.010422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.539732 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_85.asset
+  artifactKey: Guid(91d7477e2be9816408ce143f8b6cc815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_85.asset using Guid(91d7477e2be9816408ce143f8b6cc815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4746e90d5c62006f113bbe58f78b97f3') in 0.009771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.265540 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_93.asset
+  artifactKey: Guid(dfe8e33bd3889f548a84fa6d7fcbc60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_93.asset using Guid(dfe8e33bd3889f548a84fa6d7fcbc60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948e1b8d5606ed9e63ee17567928094c') in 0.010197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.237223 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_99.asset
+  artifactKey: Guid(564378ef8b768df43ae21cc1bbe10681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_99.asset using Guid(564378ef8b768df43ae21cc1bbe10681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54667671557f259ed926a82750e5ce1c') in 0.010919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_102.asset
+  artifactKey: Guid(52d67d7a71b471b4cbe16c5dd906c9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_102.asset using Guid(52d67d7a71b471b4cbe16c5dd906c9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2c5f75e12e75d5bb2daad00845f813') in 0.008535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.237687 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_107.asset
+  artifactKey: Guid(8a4d2cf20c6e072439d6edf19fac1017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_107.asset using Guid(8a4d2cf20c6e072439d6edf19fac1017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233e515bc171cd35c94d61e057c5ec67') in 0.010762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.279189 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_117.asset
+  artifactKey: Guid(0163a21973edf7c43a874959e932aaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_117.asset using Guid(0163a21973edf7c43a874959e932aaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa33b2342fd0a928bca0804596d92bb') in 0.008691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.252685 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_125.asset
+  artifactKey: Guid(36c7091915ac98b4781d7b30c4cfb93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_125.asset using Guid(36c7091915ac98b4781d7b30c4cfb93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677075ae85c798381a6cf5efb1cc213c') in 0.008617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.261324 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_133.asset
+  artifactKey: Guid(6f5c2aa3027121a4fbfeb02b930eb1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_133.asset using Guid(6f5c2aa3027121a4fbfeb02b930eb1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a9eb6b861b77430d97da68bd660ad1') in 0.010188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.252609 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_139.asset
+  artifactKey: Guid(56a68c9e7e1d4544597900a81ce5d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_139.asset using Guid(56a68c9e7e1d4544597900a81ce5d74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdfe119adaccbaab414e21876b81ac1') in 0.009227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_143.asset
+  artifactKey: Guid(1f0c3074d4bbadb46a0f4fb62fa3fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_143.asset using Guid(1f0c3074d4bbadb46a0f4fb62fa3fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263f845a1d990665446b1734902407b9') in 0.012942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.232557 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_147.asset
+  artifactKey: Guid(15d5e6602b1e09845ac22c5cdf8312ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_147.asset using Guid(15d5e6602b1e09845ac22c5cdf8312ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47492e0864f45e09d58e2a0f155ff9a') in 0.012955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019439 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_151.asset
+  artifactKey: Guid(1794a2313d7cc8d47a878b8d80818e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_151.asset using Guid(1794a2313d7cc8d47a878b8d80818e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4931cfaeab1c26305e835a3339068844') in 0.014521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.497208 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_161.asset
+  artifactKey: Guid(ce41f19bbe793464fa840789d5a16632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_161.asset using Guid(ce41f19bbe793464fa840789d5a16632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cc82380ea0700c7804bee6cb428c6f') in 0.010693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.278401 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_171.asset
+  artifactKey: Guid(c32c68aed4f2a1f44b2c533d5ae2b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_171.asset using Guid(c32c68aed4f2a1f44b2c533d5ae2b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563dc023672d89aa8bbf622cdbd1f716') in 0.017053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.263138 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_177.asset
+  artifactKey: Guid(c70b1cb2ba77fcb48b44ec1f84046bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_177.asset using Guid(c70b1cb2ba77fcb48b44ec1f84046bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5222c25a9be4f40a0dc4839484c22604') in 0.023005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.519206 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_187.asset
+  artifactKey: Guid(dd4e1dd9c1c6ec14f95d2142b259679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_187.asset using Guid(dd4e1dd9c1c6ec14f95d2142b259679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502ed1f96579136327ad5bccf03d505b') in 0.020072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037155 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_191.asset
+  artifactKey: Guid(5d88d92ecdc278841a45382f04d8eef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_191.asset using Guid(5d88d92ecdc278841a45382f04d8eef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f38e2604e9a8c57639a3b55c23b1e12') in 0.019787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.301582 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_195.asset
+  artifactKey: Guid(b378f141de96de548adedc7b303e1627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_195.asset using Guid(b378f141de96de548adedc7b303e1627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c40d4d86ba6398491ad645b4d7953b8') in 0.027545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_207.asset
+  artifactKey: Guid(a72c8231a53fffe4d86b8be9ca4d19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_207.asset using Guid(a72c8231a53fffe4d86b8be9ca4d19f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b85ee14f9395f4b07a0fe553715c30') in 0.022693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_323.asset
+  artifactKey: Guid(fe667aa085c80314981752912c60f5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_323.asset using Guid(fe667aa085c80314981752912c60f5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57222dc16b5979464c8b1b6c3cb53fff') in 0.011656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_330.asset
+  artifactKey: Guid(09ec11474711e3b4388b6e652a874e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_330.asset using Guid(09ec11474711e3b4388b6e652a874e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f791e1c892bfd2c1559a0878201dd01') in 0.011422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_336.asset
+  artifactKey: Guid(ecd7657b46f3b9e4eafa4fcba7326ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_336.asset using Guid(ecd7657b46f3b9e4eafa4fcba7326ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ed083e9f819505294ea97788b1d920') in 0.017219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_340.asset
+  artifactKey: Guid(b971cda7159120e4aa7a43a094ec55bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_340.asset using Guid(b971cda7159120e4aa7a43a094ec55bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f19716cd6892c4c61c81c0c99113eb') in 0.014890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_516.asset
+  artifactKey: Guid(4bf090238515c7d4fae4a4ede01f2953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_516.asset using Guid(4bf090238515c7d4fae4a4ede01f2953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5493941bee9728236ce014943163ec8') in 0.011839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_316.asset
+  artifactKey: Guid(b4307ea4f3a30f643b7ba9ebb50c76ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_316.asset using Guid(b4307ea4f3a30f643b7ba9ebb50c76ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfac12b5c260ba49a887415348d781d4') in 0.011187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_523.asset
+  artifactKey: Guid(99e74ad25c0a13047b528d39b28a9320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_523.asset using Guid(99e74ad25c0a13047b528d39b28a9320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c52acb56f4f94c930f7d162a4a00a3') in 0.011872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_205.asset
+  artifactKey: Guid(731b6abf1e5028640a5d1e3cd284daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_205.asset using Guid(731b6abf1e5028640a5d1e3cd284daca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e758d61444ab77d3ba876f8e93417cbc') in 0.012573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_201.asset
+  artifactKey: Guid(f127457106040b74ea310a23b788539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_201.asset using Guid(f127457106040b74ea310a23b788539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9976e0bf7cdf69885dfe7b9273c7443a') in 0.011899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_549.asset
+  artifactKey: Guid(3be8e02d51c402e4dad8b67eba6a4c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_549.asset using Guid(3be8e02d51c402e4dad8b67eba6a4c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3174aaea861471bf06ee48efb789cd') in 0.013123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_557.asset
+  artifactKey: Guid(6e42339bf67ff8e4a9deb19484c226f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_557.asset using Guid(6e42339bf67ff8e4a9deb19484c226f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1075a9eeeaf826d1a80da0c79286adef') in 0.010658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_519.asset
+  artifactKey: Guid(d941c4c244864fb448557d0fe035522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_519.asset using Guid(d941c4c244864fb448557d0fe035522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd2d7edf35e3b46f5c8c5ccffb82a33') in 0.014156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_317.asset
+  artifactKey: Guid(4626d1e9f7c753444a554a3de140f496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_317.asset using Guid(4626d1e9f7c753444a554a3de140f496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5948b3828136a7d3d78ca2e66453b4d') in 0.012996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_531.asset
+  artifactKey: Guid(71ec03e62b312b643ab2ff1c9c981a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_531.asset using Guid(71ec03e62b312b643ab2ff1c9c981a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b81889a50d184c9d9b419037eb477fa') in 0.010609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_556.asset
+  artifactKey: Guid(29da49af0da539e40bcbb0393231f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_556.asset using Guid(29da49af0da539e40bcbb0393231f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a638abbc0862627bf072172c76b27be4') in 0.011661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_520.asset
+  artifactKey: Guid(34a8e5f9ff68bc54b959dd5f864ecad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_520.asset using Guid(34a8e5f9ff68bc54b959dd5f864ecad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3cdf2fa1b8043be3d60df0d95e393b') in 0.010523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_335.asset
+  artifactKey: Guid(2e7ed8202c50aed4199ce5b68fef03eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_335.asset using Guid(2e7ed8202c50aed4199ce5b68fef03eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc55e6fb83e0d808c9b4fdd6a9ed2054') in 0.010821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_319.asset
+  artifactKey: Guid(b3c02db1b2effc54294a944a8884c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_319.asset using Guid(b3c02db1b2effc54294a944a8884c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36ccb8fca29e4c531987b72689396f1') in 0.011465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_541.asset
+  artifactKey: Guid(78f1a58f31a934f4c9b8d20858b15fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_541.asset using Guid(78f1a58f31a934f4c9b8d20858b15fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e9d083f90aae6e21e84b9929bb99c8') in 0.010773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_527.asset
+  artifactKey: Guid(70d01aaebe36d9e4a84dee5374d682d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_527.asset using Guid(70d01aaebe36d9e4a84dee5374d682d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3343f80c8a1da626dae5472c511df005') in 0.010348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Artwork/Level/mainlevbuild_199.asset
+  artifactKey: Guid(44c397acc0e358b46866b2fe763fb7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Level/mainlevbuild_199.asset using Guid(44c397acc0e358b46866b2fe763fb7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9035c5e3d23e127f44827dd7eddbe0c2') in 0.009934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
